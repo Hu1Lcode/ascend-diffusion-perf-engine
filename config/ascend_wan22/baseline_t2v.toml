@@ -1,0 +1,24 @@
+id = "ascend_wan22_t2v_baseline"
+kind = "baseline"
+purpose = "control"
+description = "Frozen vLLM-Omni 0.28.0 Wan2.2 TI2V 5B T2V baseline; three prompts."
+model_profile = "ascend_wan22"
+
+[env]
+ASCEND_TASK = "t2v"
+ASCEND_SAMPLES = "evals/ascend_samples/t2v.json"
+ASCEND_FEATURES = ""
+ASCEND_WIDTH = "1280"
+ASCEND_HEIGHT = "720"
+ASCEND_FRAMES = "81"
+ASCEND_STEPS = "40"
+ASCEND_FPS = "24"
+ASCEND_GUIDANCE = "4.0"
+
+[official_config]
+width = 1280
+height = 720
+frames = 81
+steps = 40
+fps = 24
+guidance_scale = 4.0

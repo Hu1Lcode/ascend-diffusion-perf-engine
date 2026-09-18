@@ -1,0 +1,24 @@
+id = "ascend_wan22_i2v_baseline"
+kind = "baseline"
+purpose = "control"
+description = "Frozen vLLM-Omni 0.28.0 Wan2.2 TI2V 5B I2V baseline; three input images."
+model_profile = "ascend_wan22"
+
+[env]
+ASCEND_TASK = "i2v"
+ASCEND_SAMPLES = "evals/ascend_samples/i2v.json"
+ASCEND_FEATURES = ""
+ASCEND_WIDTH = "832"
+ASCEND_HEIGHT = "480"
+ASCEND_FRAMES = "81"
+ASCEND_STEPS = "50"
+ASCEND_FPS = "16"
+ASCEND_GUIDANCE = "5.0"
+
+[official_config]
+width = 832
+height = 480
+frames = 81
+steps = 50
+fps = 16
+guidance_scale = 5.0

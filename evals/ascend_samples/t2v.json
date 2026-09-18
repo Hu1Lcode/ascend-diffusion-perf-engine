@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "task": "t2v",
+  "samples": [
+    {"id": "fox_fur", "seed": 1101, "prompt": "A red fox walks slowly beside a forest stream, pauses, and turns its head toward the camera. Detailed fur, steady natural motion, soft morning light.", "negative_prompt": "flicker, duplicate animal, distortion, blur"},
+    {"id": "bicycle_motion", "seed": 2202, "prompt": "A yellow bicycle rolls along a cobblestone street as the camera tracks beside it. The wheels rotate smoothly; shopfronts and stone textures stay coherent.", "negative_prompt": "flicker, warped wheels, duplicate bicycle, blur"},
+    {"id": "sailboat_camera", "seed": 3303, "prompt": "A small sailboat glides across a mountain lake. The camera pans gently, the sail moves in the breeze, and cloud reflections ripple naturally on the water.", "negative_prompt": "flicker, duplicate boat, broken reflections, blur"}
+  ]
+}

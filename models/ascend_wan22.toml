@@ -1,0 +1,22 @@
+id = "ascend_wan22"
+spec = "Wan2.2-TI2V-5B-vllm-omni-v0.28.0"
+display_name = "Wan2.2 TI2V 5B on Ascend through vLLM-Omni 0.28.0"
+submodule = "models/ascend_wan22"
+run_script = "run.sh"
+
+[official_config]
+model = "Wan-AI/Wan2.2-TI2V-5B-Diffusers"
+runtime = "vllm-omni-v0.28.0"
+num_gpus = 1
+
+[env]
+ASCEND_FEATURES = ""
+ASCEND_SAMPLE_LIMIT = "3"
+ASCEND_TASK = "t2v"
+ASCEND_MODEL_ID = "Wan2.2-TI2V-5B"
+
+[artifacts]
+output_dir = "outputs"
+log = "run.log"
+benchmark = "benchmark.json"
+quality = "quality.json"

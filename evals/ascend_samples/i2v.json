@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "task": "i2v",
+  "samples": [
+    {"id": "fox_identity", "seed": 4404, "image": "images/fox.jpg", "prompt": "The same fox takes a few slow steps and looks toward the camera. Keep its face, fur pattern, forest and stream consistent.", "negative_prompt": "duplicate fox, changing face, distorted legs, flicker"},
+    {"id": "bicycle_detail", "seed": 5505, "image": "images/bicycle.jpg", "prompt": "A gentle camera dolly moves past the stationary yellow bicycle. Keep the bicycle shape, spokes, flowers and cobblestone details stable.", "negative_prompt": "warped bicycle, moving wheels, changing spokes, flicker"},
+    {"id": "sailboat_motion", "seed": 6606, "image": "images/sailboat.jpg", "prompt": "The same wooden sailboat moves slowly across the lake. The white sail shifts gently; preserve the mountains, horizon and reflections.", "negative_prompt": "duplicate boat, changing sail, warped horizon, flicker"}
+  ]
+}
